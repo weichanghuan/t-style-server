@@ -1,7 +1,7 @@
 package com.tstyle.tio;
 
 import com.tstyle.constants.Constants;
-import com.tstyle.packet.MessagePacket;
+import com.tstyle.protocol.packet.MessagePacket;
 import java.nio.ByteBuffer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

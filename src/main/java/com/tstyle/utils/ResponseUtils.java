@@ -14,8 +14,8 @@ package com.tstyle.utils;
 import com.tstyle.constants.Constants;
 import com.tstyle.handler.common.BaseRequest;
 import com.tstyle.handler.common.BaseResponse;
-import com.tstyle.packet.MessagePacket;
 import com.tstyle.protocol.MessageTypeEnum;
+import com.tstyle.protocol.packet.MessagePacket;
 import java.io.UnsupportedEncodingException;
 
 /**

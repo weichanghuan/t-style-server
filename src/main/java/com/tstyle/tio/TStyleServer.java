@@ -2,6 +2,7 @@ package com.tstyle.tio;
 
 import com.tstyle.constants.Constants;
 import com.tstyle.listener.AioCommonListenerImpl;
+import com.tstyle.protocol.TStyleChannelContext;
 import java.io.IOException;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -23,9 +24,9 @@ import org.tio.server.intf.ServerAioListener;
  *
  */
 @Component
-public class TioServer {
+public class TStyleServer {
 
-    private static final Logger logger = LoggerFactory.getLogger(TioServer.class);
+    private static final Logger logger = LoggerFactory.getLogger(TStyleServer.class);
 
     @Value("${tio.server.host}")
     private String host;
