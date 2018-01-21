@@ -29,8 +29,6 @@ public class ResponseUtils {
      * 
      * @param request
      * @return
-     * @author jiong.peng
-     * @date 2017年5月17日 下午2:50:08
      */
     public static BaseResponse buildResponse(BaseRequest request) {
         BaseResponse resp = new BaseResponse();
@@ -47,9 +45,7 @@ public class ResponseUtils {
      * @param returnCode
      * @param returnDesc
      * @return
-     * @author jiong.peng
      * @throws UnsupportedEncodingException
-     * @date 2017年5月18日 下午1:50:02
      */
     public static MessagePacket buildRespMessageProtocol(MessagePacket reqMessage, String returnCode, String returnDesc) throws UnsupportedEncodingException {
         BaseResponse resp = new BaseResponse();
